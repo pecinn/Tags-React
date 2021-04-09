@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.App p {
+  text-align: justify;
+}
+
+.tag-container {
+  min-width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid gray;
+  height: 25px;
+  border-radius: 5px;
+  margin: 2px 5px 2px 0px;
+}
+
+.tag-container input {
+  border: none;
+  flex: 1;
+  outline: none;
+  padding: 5px;
+  color: gray;
+}
+.tag span {
+  margin-left: 5px;
+  cursor: pointer;
+  color: red;
+  border: 1px gray;
+}
+.tag-container button {
+  text-align: center;
+  color: red;
+}
